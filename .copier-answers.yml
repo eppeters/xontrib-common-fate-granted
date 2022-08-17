@@ -1,0 +1,20 @@
+# Changes here will be overwritten by Copier
+_commit: v0.1.0
+_src_path: gh:xonsh/xontrib-template
+email: eddie@dinogalactic.com
+enable_autoloading: true
+enable_pre_commit_hooks: true
+full_name: Eddie Peters
+github_username: eppeters
+has_aliases: true
+has_events: false
+package_manager: setuptools
+project_name: common-fate-granted
+project_package_name: common_fate_granted
+project_repo_name: xontrib-common-fate-granted
+project_short_description: Use Common Fate's Granted CLI tool for switching AWS profiles
+    with Xonsh shell
+pure_py: 'yes'
+py_module_name: xontrib_common_fate_granted
+version: 0.0.1
+
