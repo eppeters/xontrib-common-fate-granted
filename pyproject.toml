@@ -23,11 +23,6 @@ content-type = "text/markdown"
 
 
 
-[project.entry-points."xonsh.xontribs"]
-"common_fate_granted" = "xontrib_common_fate_granted.main"
-
-
-
 [project.urls]
 
 Homepage = "https://github.com/eppeters/xontrib-common-fate-granted"
@@ -49,12 +44,17 @@ requires = [
     "wheel",               # for bdist package distribution
 ]
 build-backend = "setuptools.build_meta"
+
 [tool.setuptools]
-    
 platforms = ["any"]
-include-package-data = false
+include-package-data = true
+packages = ["xontrib"]
+
+[tool.setuptools.package-dir]
+xontrib = "xontrib_common_fate_granted"
+
 [tool.setuptools.package-data]
-    
+xontrib = ["*.xsh"]    
 
 
 [tool.isort]
