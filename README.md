@@ -1,5 +1,5 @@
 <p align="center">
-Use [Common Fate's Granted CLI tool](https://granted.dev) for switching AWS profiles with [Xonsh shell](https://xon.sh/)
+Use <a href="https://granted.dev">Common Fate's Granted CLI tool</a> for switching AWS profiles in <a href="https://xon.sh/">Xonsh shell</a>
 </p>
 
 <p align="center">  
